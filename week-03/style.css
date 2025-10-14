@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: #8600b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+/*Style the paragraph */
+p{
+    color: #cc33ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: 10px;
+}
+
+
+
