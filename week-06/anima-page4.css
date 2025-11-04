@@ -1,0 +1,19 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {font-size: 4rem;
+}
+
+@keyframes colourCycle {
+    0% {color: red;}
+    25% {color: purple;}
+    50% {color: blue;}
+    100% {color: pink;}
+}
+
+
+.colourCycling {
+    padding: 50px;
+    animation: colourCycle 2s alternate-reverse infinite;
+}
