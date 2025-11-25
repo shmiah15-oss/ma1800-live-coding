@@ -1,2 +1,37 @@
 /* CSS Document — Content Boxes with Flex Layout */
 
+body {
+    background: rgb(222, 96, 152);
+    color: rgb(130, 59, 216);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+.year{
+    display: flex;
+    margin: 50px 0;
+    border: 3px solid rgb(216, 59, 59);
+}
+
+.info-box {
+    flex-grow: 1;
+    flex-basis: auto;
+    background: rgb(251, 152, 248);
+    color: blueviolet;
+    padding: 25px;
+    margin: 20px;
+}
+
+.bigger {
+    flex-grow: 4;
+}
+

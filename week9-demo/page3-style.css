@@ -1,0 +1,23 @@
+
+  /* Message delay */
+
+  @keyframes flash {
+    /* text alternates between white and black */
+    0%   { color: #fff; }
+    
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin: 25px;
+    color: #fff;
+ 
+  }
+  
+  /* Each message starts at a different time using animation-delay */
+  .message1 {
+    animation-delay: 0s;
+  }
+  
+
+  

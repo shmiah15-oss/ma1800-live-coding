@@ -1,0 +1,58 @@
+/*css for index*/
+
+img {
+    border-radius: 30px;
+    
+}
+
+/*making the images go side to side*/
+.column {
+    float: left;
+    width: 30%; 
+    padding: 5px; 
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*hover effect*/
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.container:hover .image {
+    opacity: 0.7;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgb(38, 13, 59);
+    color: white;
+    font-size: 20px;
+    padding: 20px 36px;
+}
