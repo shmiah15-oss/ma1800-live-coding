@@ -42,4 +42,33 @@ body {
     border: dashed 3px #000000;
    }
 
+    #box2 {
+    position: relative;
+    left: 703px;
+    bottom: 1000px;
+    width: 600px;
+    height: 150px;
+    border: dashed 3px #000000;
+   }
+
+    #box3 {
+    position: relative;
+    left: 703px;
+    bottom: 1000px;
+    width: 600px;
+    height: 150px;
+    border: dashed 3px #000000;
+   }
+
+    #box8 {
+    position: relative;
+    left: 703px;
+    bottom: 200px;
+    width: 100px;
+    height: 50px;
+    border: dashed 3px #000000;
+   }
+
+
+
    
